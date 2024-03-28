@@ -1,6 +1,5 @@
 # Automatic Detection and Analysis of Concrete Cracks Using YOLO
-
-<h2>Table of Contents<h2>
+## Table of Contents
 - [Description](#description)
 - [Folder Structure](#folder-structure)
 - [Dependencies](#dependencies)
@@ -34,9 +33,15 @@ The web directory contains all files necessary for the web interface of the crac
 <h4>6.app.py</h4>
 The app.py file serves as the main script for running the web application that facilitates concrete crack detection. It leverages the Streamlit framework to create an interactive user interface for uploading video files and visualizing the crack detection results.
 <h4>Functionality:</h4>
-Video Upload: Users can upload a video file containing footage of concrete surfaces.<br>
-Frame Processing: Each frame of the uploaded video is processed to detect cracks using the implemented crack detection algorithm.<br>
-Crack Visualization: Processed frames with detected cracks are displayed in the web application, providing visual feedback to the user.
+Video Upload: Users can upload a video file containing footage of concrete surfaces.<br><br>
+Frame Processing: Each frame of the uploaded video is processed to detect cracks using the implemented crack detection algorithm.<br><br>
+Crack Visualization: Processed frames with detected cracks are displayed in the web application, providing visual feedback to the user.<br><br>
+<h2>Dependencies</h2>
+
+<h4>.Streamlit:</h4> Streamlit is a Python library used for building interactive web applications. It facilitates the creation of user-friendly interfaces for data visualization and analysis.<br>
+<h4>Ultralytics YOLOv5:</h4> Ultralytics YOLOv5 is a state-of-the-art computer vision library for object detection tasks. Built upon the YOLO (You Only Look Once) architecture, YOLOv5 offers significant improvements in speed, accuracy, and ease of use compared to previous versions. YOLOv5 provides a range of pre-trained models and utilities for training custom object detection models on user-defined datasets. <br>
+<h4>Roboflow:</h4>Roboflow is a platform for preprocessing and augmenting image datasets. It provides a suite of tools and workflows for data annotation, normalization, augmentation, and export to various formats.<br>
+<h4>OpenCV:</h4>OpenCV (Open Source Computer Vision Library) is a popular library for image and video processing. It provides a comprehensive set of tools and algorithms for tasks such as image filtering, feature detection, object tracking, and camera calibration. 
 
 
  
