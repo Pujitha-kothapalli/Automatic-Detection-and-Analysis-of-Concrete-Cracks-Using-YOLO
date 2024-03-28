@@ -7,7 +7,6 @@
 - [Usage](#usage)
 - [Screenshots](#screenshots)
  
-<br>
 <h2>Description</h2>
 This repository presents an innovative approach for the automated detection and analysis of concrete cracks utilizing deep learning techniques, particularly the YOLO (You Only Look Once) algorithm. Concrete structures are susceptible to various forms of deterioration, with cracks serving as early indicators of potential structural issues. Traditional methods for crack detection and analysis are often time-consuming and subjective. In this research, we leverage deep learning, specifically convolutional neural networks (CNNs), to automatically detect and categorize cracks in concrete surfaces.
 <br>
@@ -35,13 +34,39 @@ The app.py file serves as the main script for running the web application that f
 <h4>Functionality:</h4>
 Video Upload: Users can upload a video file containing footage of concrete surfaces.<br><br>
 Frame Processing: Each frame of the uploaded video is processed to detect cracks using the implemented crack detection algorithm.<br><br>
-Crack Visualization: Processed frames with detected cracks are displayed in the web application, providing visual feedback to the user.<br><br>
+Crack Visualization: Processed frames with detected cracks are displayed in the web application, providing visual feedback to the user.<br>
+
 <h2>Dependencies</h2>
 
-<h4>.Streamlit:</h4> Streamlit is a Python library used for building interactive web applications. It facilitates the creation of user-friendly interfaces for data visualization and analysis.<br>
-<h4>Ultralytics YOLOv5:</h4> Ultralytics YOLOv5 is a state-of-the-art computer vision library for object detection tasks. Built upon the YOLO (You Only Look Once) architecture, YOLOv5 offers significant improvements in speed, accuracy, and ease of use compared to previous versions. YOLOv5 provides a range of pre-trained models and utilities for training custom object detection models on user-defined datasets. <br>
-<h4>Roboflow:</h4>Roboflow is a platform for preprocessing and augmenting image datasets. It provides a suite of tools and workflows for data annotation, normalization, augmentation, and export to various formats.<br>
-<h4>OpenCV:</h4>OpenCV (Open Source Computer Vision Library) is a popular library for image and video processing. It provides a comprehensive set of tools and algorithms for tasks such as image filtering, feature detection, object tracking, and camera calibration. 
+- **Streamlit:**
+  - Streamlit is a Python library used for building interactive web applications.
+  - It facilitates the creation of user-friendly interfaces for data visualization and analysis.
+
+- **Ultralytics YOLOv5:**
+  - Ultralytics YOLOv5 is a state-of-the-art computer vision library for object detection tasks.
+  - Built upon the YOLO (You Only Look Once) architecture, YOLOv5 offers significant improvements in speed, accuracy, and ease of use compared to previous versions.
+  - YOLOv5 provides a range of pre-trained models and utilities for training custom object detection models on user-defined datasets.
+
+- **Roboflow:**
+  - Roboflow is a platform for preprocessing and augmenting image datasets.
+  - It provides a suite of tools and workflows for data annotation, normalization, augmentation, and export to various formats.
+
+- **OpenCV:**
+  - OpenCV (Open Source Computer Vision Library) is a popular library for image and video processing.
+  - It provides a comprehensive set of tools and algorithms for tasks such as image filtering, feature detection, object tracking, and camera calibration.
+
+ <h2>Installation</h2>
+ <h4>Install Streamlit:</h4>Streamlit can be easily installed using pip, the Python package installer. Ensure you have Python installed on your system before proceeding.
+
+```bash
+pip install streamlit
+
+<h4>Installation of Ultralytics:</h4>
+Ultralytics can be installed using pip, the Python package installer. Ultralytics provides implementations for various deep learning models and utilities for computer vision tasks.
+
+```bash
+pip install ultralytics
+
 
 
  
