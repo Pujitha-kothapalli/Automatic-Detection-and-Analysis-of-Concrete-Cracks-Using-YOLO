@@ -56,18 +56,21 @@ Crack Visualization: Processed frames with detected cracks are displayed in the 
   - It provides a comprehensive set of tools and algorithms for tasks such as image filtering, feature detection, object tracking, and camera calibration.
 
  <h2>Installation</h2>
- <h4>Install Streamlit:</h4>Streamlit can be easily installed using pip, the Python package installer. Ensure you have Python installed on your system before proceeding.
+<h4>Install Streamlit:</h4> 
+Streamlit can be easily installed using pip, the Python package installer. Ensure you have Python installed on your system before proceeding.
 
 ```bash
+# Install Streamlit
 pip install streamlit
 
-<h4>Installation of Ultralytics:</h4>
-Ultralytics can be installed using pip, the Python package installer. Ultralytics provides implementations for various deep learning models and utilities for computer vision tasks.
 
-```bash
+<h4>Installation of Ultralytics:</h4> To install Ultralytics, you can use pip, the Python package installer. Ultralytics provides implementations for various deep learning models and utilities for computer vision tasks.
+
+# Installation of Ultralytics
 pip install ultralytics
 
+<h4>Installation of Required Dependencies:</h4> To install the required dependencies for the project, you can use the pip install -r requirements.txt command. This command reads the requirements.txt file, which contains a list of Python packages.
 
-
- 
+# Install -r requirements
+pip install -r requirements.txt
 
